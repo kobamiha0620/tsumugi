@@ -1,0 +1,976 @@
+{
+  "current": {
+    "color_text": "#162950",
+    "color_body_text": "#6d6d6d",
+    "color_sale_text": "#DA2F0C",
+    "color_button": "#dad098",
+    "color_button_text": "#ffffff",
+    "color_small_button_text_border": "#162950",
+    "color_text_field_text": "#162950",
+    "color_text_field_border": "#909090",
+    "color_text_field": "#faf9f6",
+    "color_image_overlay_text": "#ffffff",
+    "color_image_overlay": "#3d3d3d",
+    "image_overlay_opacity": 40,
+    "color_borders": "#e4e4e4",
+    "color_body_bg": "#fbf9f5",
+    "type_header_font": "muli_n6",
+    "type_header_base_size": 22,
+    "type_base_font": "muli_n4",
+    "type_base_size": 18,
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_twitter_link": "",
+    "social_facebook_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "favicon": "",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "small",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#e8f3f6",
+    "checkout_heading_font": "Roboto",
+    "checkout_body_font": "Source Sans Pro",
+    "checkout_accent_color": "#1990c6",
+    "checkout_button_color": "#23314e",
+    "checkout_error_color": "#ff6d6d",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "left",
+          "logo": "shopify:\/\/shop_images\/logo_889eb648-a139-408a-8c2e-7542d4de577b.png",
+          "logo_max_width": 135,
+          "main_linklist": "main-menu",
+          "message": false,
+          "home_page_only": true,
+          "message_text": "TSUMUGI",
+          "message_link": "",
+          "color_bg": "#162950",
+          "color_text": "#ffffff"
+        }
+      },
+      "hero": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/202110c_7186c9fa-284f-4170-a30c-59c5a31a998f.png",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "x-large",
+          "text_size": "large",
+          "title": "",
+          "text": "",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "slideshow-0": {
+            "type": "image",
+            "settings": {
+              "alignment": "center center",
+              "slide_title": "画像スライド",
+              "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
+              "button_label": ""
+            }
+          },
+          "1492095993817": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "slide_title": "画像スライド",
+              "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "slideshow-0",
+          "1492095993817"
+        ],
+        "settings": {
+          "slideshow_height": "medium",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "show_overlay": true,
+          "autorotate": false,
+          "autorotate_speed": 5
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": false,
+          "show_vendor": false,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 2,
+          "rows": 2,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
+        }
+      },
+      "1492033809691": {
+        "type": "map",
+        "disabled": true,
+        "settings": {
+          "heading": "CONCEPT",
+          "address": "<p>奈良県にある<br\/>老舗パンティストッキング専業メーカーが<br\/>長くに渡り培われた技術力<br\/>機械的に糸を紡ぐだけではない<br\/>「想い」そして、「愛」で紡がれた<br\/>人と自然に寄り添う<br\/>レッグウェアブランド<\/p>",
+          "map_address": "",
+          "button_text": "",
+          "show_pin": false,
+          "api_key": "",
+          "background_image": "shopify:\/\/shop_images\/tsumugi5.png",
+          "background_image_position": "center center"
+        }
+      },
+      "1492033924902": {
+        "type": "custom-content",
+        "blocks": {
+          "1492033924902-0": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "text": "",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "center"
+            }
+          },
+          "b3d1bfd0-c1c1-4a34-bc09-79b3d8bd435f": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"tsumugi_concept\">\n    <div class=\"tsumugi__concept--txtWrap\">\n        <h4 class=\"tsumugi__concept--ttlAs\">私たちについて<\/h4>\n        <p class=\"tsugumi__concept--subttl\">人と自然に寄り添うレッグウェアブランド<\/p>\n        <p class=\"tsumugi__concept--txt\">奈良県大和高田市で創業70年<br>老舗パンティストッキング専業メーカーが<br>長く渡り培われた技術力<br>機械的に意図を紡ぐだけではない<br>「想い」と「愛」で紡がれ誕生したブランドです<\/p>\n    <\/div>\n    <div class=\"tsumugi__concept--Img\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/syohin.png?v=1623116094\" alt=\"TsumugiConcept\">\n    <\/div>\n<\/div>\n\n\n<style>\n    .tsumugi_concept{\n        background: #fbf9f5;\n        width: 100wh!important;\n        display: flex;\n        align-items: center;\n        justify-content: space-around;\n    }\n    .tsumugi__concept--ttlAs{\n      text-align: center;\n        font-weight: bold;\n        font-size: 18px;\n    }\n    .tsumugi__concept--ttl{\n        text-align: center;\n    }\n    .tsumugi__concept--txt{\n      text-align: center;\n            font-size: 16px;\n            line-height: 1.5;\n            margin: 0 auto;\n        }\n    .tsumugi__concept--Img{\n        width: 50%;\n        text-align: center;\n    }\n    .tsumugi__concept--Img img{\n        width: 100%;\n    }\n    .tsumugi__concept--txtWrap{\n        margin: 0;\n        width: 50%;\n        text-align: center;\n    }\n    .tsumugi_concept p{\n        margin: 0;\n    }\n    .tsugumi__concept--subttl{\n        font-size: 24px;\n        margin: 30px 0!important;\n        padding: 0 22px;\n        font-weight: bold;\n    }\n.slideshow__text-wrap{\ndisplay: none;}\n    @media only screen and (max-width: 749px){\n\n        .tsumugi_concept{\n            display: block;\n            margin: 0 -22px;\n\n        }\n        .tsumugi__concept--txtWrap, .tsumugi__concept--Img{\n            width: 100%;\n        }\n        .tsumugi__concept--txtWrap{\n            padding-top:  0;\n            margin-top: -20px;\n        }\n        .tsumugi__concept--txt{\n            font-size: 12px;\n        }\n        .tsumugi__concept--Img{\n            margin: 50px 0 0;\n        }\n        .tsumugi__concept--Img img{\n            width: 100vw;\n            height: auto;\n        }\n\n    }\n<\/style>",
+              "width": "100%"
+            }
+          }
+        },
+        "block_order": [
+          "1492033924902-0",
+          "b3d1bfd0-c1c1-4a34-bc09-79b3d8bd435f"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "layout": "grid",
+          "blog_show_author": true,
+          "blog_show_date": false
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_author": true,
+          "blog_show_date": true,
+          "show_share_buttons": true
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_notes_enable": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "link_list": {
+            "type": "link_list",
+            "settings": {
+              "title": "クイックリンク",
+              "menu": "footer"
+            }
+          },
+          "text": {
+            "type": "text",
+            "settings": {
+              "title": "あなたのビジネスについて語る",
+              "text": "<p>ストア詳細、プロモーション、ブランドのコンテンツをお客様と共有する。<\/p>"
+            }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "title": "ニュースレター"
+            }
+          }
+        },
+        "block_order": [
+          "link_list",
+          "text",
+          "newsletter"
+        ],
+        "settings": {
+          "show_payment_icons": false,
+          "color_footer_bg": "#f8f8f8",
+          "color_footer_text": "#6d6d6d",
+          "show_locale_selector": true,
+          "show_currency_selector": false
+        }
+      },
+      "1622685184fc76c89e": {
+        "type": "custom-content",
+        "disabled": true,
+        "blocks": {
+          "8494e0af-6dac-4185-be9d-909961861389": {
+            "type": "html",
+            "settings": {
+              "code": "<div style=\"margin: 0 -22px; 0\">\n<video controls=\"controls\" style=\"max-width: 100%; width: 100wh; height: auto;\" class=\"video_vw\" autoplay>\n  <source src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/TSUMUGI_2.mov?v=1622684652\" type=\"video\/mp4\">\nYour browser does not support our video.\n<\/source><\/video>\n\n<\/div>",
+              "width": "100%"
+            }
+          }
+        },
+        "block_order": [
+          "8494e0af-6dac-4185-be9d-909961861389"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "16227083745e094f77": {
+        "type": "custom-content",
+        "blocks": {
+          "dbc294fb-a268-4f27-a1ac-6976606dd910": {
+            "type": "html",
+            "settings": {
+              "code": "<h4 class=\"tsumugi__concept--ttl h3\">製品<\/h4>\n\n<div class=\"tsumugi__concept--img\">\n    <p style=\"text-align:center; color: #80817c;\">虫除け、冷却効果を施し、紫外線99％以上カットしたこだわりのレギンスです。<br>\n        着圧タイプ、男性用もございます<\/p>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/top_explain.png?v=1623077168\" alt=\"\" width=\"100%\">\n    \n<\/div>\n\n<!-- <ul class=\"tsumugi__products\">\n    <li>\n        <a href=\"https:\/\/tsumugi-shop.myshopify.com\/products\/%E7%9D%80%E5%9C%A7%E8%99%AB%E9%99%A4%E3%81%91%E3%82%AD%E3%82%B7%E3%83%AA%E3%83%88%E3%83%BC%E3%83%AB%E3%83%AC%E3%82%AE%E3%83%B3%E3%82%B9\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/product_01.png?v=1623032658\" alt=\"\" width=\"100%\">\n            <p class=\"tsumugi__products--text\">着圧・虫除け冷却レギンス（女性用）<\/p>\n        <\/a>\n    <\/li>\n    <li>\n        <a href=\"https:\/\/tsumugi-shop.myshopify.com\/products\/%E8%99%AB%E9%99%A4%E3%81%91%E5%86%B7%E5%8D%B4%E3%83%AC%E3%82%AE%E3%83%B3%E3%82%B9\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/product_02.png?v=1623032658\" alt=\"\" width=\"100%\">\n            <p class=\"tsumugi__products--text\">虫除け冷却レギンス（女性用）<\/p>\n        <\/a>\n    <\/li>\n    <li>\n        <a href=\"https:\/\/tsumugi-shop.myshopify.com\/products\/%E8%99%AB%E9%99%A4%E3%81%91%E5%86%B7%E5%8D%B4%E3%83%AC%E3%82%AE%E3%83%B3%E3%82%B9-1\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/product_03.png?v=1623032658\" alt=\"\" width=\"100%\">\n            <p class=\"tsumugi__products--text\">虫除け冷却レギンス（男性用）<\/p>\n        <\/a>\n    <\/li>\n<\/ul> -->\n\n\n\n\n\n\n<style>\n    .tsumugi__concept--img{\n        margin: 50px 0;\n    }\n    .tsumugi__products{\n        display: flex;\n        justify-content: space-between;\n        background: #faf9f6;\n\n    }\n    .tsumugi__products li{\n        padding: 0 20px;\n    }\n    .tsumugi__products--text{\n        text-align: center;\n    }\n\n    @media only screen and (max-width: 749px){\n        .tsumugi__products{\n            display: block;\n            width: 100%;\n        }\n        .tsumugi__products li{\n            width: 100%;\n            margin: 0 0 50px;\n        }\n    }\n<\/style>",
+              "width": "100%"
+            }
+          }
+        },
+        "block_order": [
+          "dbc294fb-a268-4f27-a1ac-6976606dd910"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "16227099934b09cdaf": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "1622709993afe922a3-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/img_topTsumugi_b63759a5-398e-43b4-9e30-a8692d7fc12c.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "Added values spin the thread of people",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1622709993afe922a3-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/5.26-1145.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "TSUMUGI",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1622709993afe922a3-0",
+          "1622709993afe922a3-1"
+        ],
+        "settings": {
+          "slideshow_height": "large",
+          "text_size": "medium",
+          "text_alignment": "center bottom",
+          "show_overlay": true,
+          "autorotate": false,
+          "autorotate_speed": 5
+        }
+      },
+      "1622712792a8ea4c36": {
+        "type": "hero",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/point_05.jpg",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "adapt",
+          "text_size": "medium",
+          "title": "",
+          "text": "",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "16227129136e3df31f": {
+        "type": "hero",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/top_explain.png",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "adapt",
+          "text_size": "medium",
+          "title": "",
+          "text": "",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1622714466e3a79f8d": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/S__3760199.jpg",
+          "layout": "left",
+          "title": "デイリーライフディレクター  石岡 真実",
+          "text": "<p>某アパレル会社で10年、店頭からヴィジュアルプレスを経て現在は様々なブランドとのコレボレーションやPRを手掛ける。<br\/>一児の男の子のママ。シンプルで着回しやすいファッションと、自然体で飾らない人柄と、等身大のライフスタイルが支持を集めている<\/p><p><br\/><a href=\"https:\/\/www.instagram.com\/mami_ishioka\/\" target=\"_blank\" title=\"Instagram　 @  mami_ihioka\">Instagram　 @  mami_ihioka<\/a><br\/><br\/><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "162271573490f823db": {
+        "type": "custom-content",
+        "disabled": true,
+        "blocks": {
+          "162271573490f823db-0": {
+            "type": "text",
+            "settings": {
+              "title": "創業69年の技術力と想い",
+              "text": "",
+              "width": "100%",
+              "alignment": "top-middle",
+              "align_text": "center"
+            }
+          },
+          "162271573490f823db-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/img.png",
+              "width": "100%",
+              "alignment": "center"
+            }
+          },
+          "257db9db-9d98-4686-8201-4a82bf5ef721": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "text": "<p>創業69年。福西メリヤス株式会社<br\/><br\/>戦後まもなく靴下製造業として<br\/>奈良県大和高田市に創業。<br\/><br\/>奈良県は江戸時代より「大和木綿」の<br\/>木綿栽培が始まり原料を加工する、<br\/>織、縫、編、染など<br\/>周辺技術の産業が盛んになっていきました。<br\/><br\/>明治の産業革命時の機械化により産業が発達し、<br\/>現在でも奈良県は、<br\/>日本一の靴下生産量を誇っています。<br\/><br\/>その中でも、現在、国内でも数少ない<br\/>「パンティストッキング専業メーカー」として、<br\/>半世紀以上に渡り製造を続け高い技術力と想いで「レッグウェアのモノづくり」を<br\/>追求してきました。<\/p>",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "center"
+            }
+          }
+        },
+        "block_order": [
+          "162271573490f823db-0",
+          "162271573490f823db-1",
+          "257db9db-9d98-4686-8201-4a82bf5ef721"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "162271596225adeb12": {
+        "type": "custom-content",
+        "disabled": true,
+        "blocks": {
+          "4e94c66c-c3eb-4051-a2be-fc8b46876cac": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"tsumugi__contents_bl\">\n    <div class=\"tsumugi__contents--inner\">\n        <p class=\"tsumugi__contents--ttl\">人の肌にあった虫除けレギンスを届けたい<\/p>\n        <div class=\"tsumugi__contents--wrapper\">\n            <div class=\"tsumugi__contents--img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/cont_03_02.jpg?v=1613778691\" alt=\"\" width=\"100%\">\n            <\/div>\n            <div class=\"tsumugi__contents--txts\">\n                <p class=\"tsumugi__contents--txt\">「デング熱が流行し、東南アジア諸国で蚊に刺さることが原因で多くの方が命を落としてしまっている。日常生活の中で、蚊に刺されることを防ぐのは難しい。」というニュースを目にしました。<br><br>\n                    自信を持って製造してきたストッキングやタイツで虫刺されを防止予防することができれば、必ず役に立てると考え、人の肌に優しく、ストッキングやタイツに適切な虫よけに効果的な材料を探し求め「ピぺリジン」という成分を活用した忌避材料にたどり着きました。技術力と想いが繋がっていったことで、出会えた成分でした。<br><br>\n                    糸に成分を特殊加工し、細やかな編み組織により不快害虫などの虫を防ぎます。人と想いを紡いでいく「虫よけレギンス」が完成しました。\n                    <\/p>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/div>\n\n\n<style>\n    .tsumugi__contents_bl{\n        background: #eae7e0;\n        width: 100wh;\n        margin: 0 -50%;\n        padding: 100px 0 ;\n    }\n    .tsumugi__contents--ttl{\n        font-weight: bold;\n        font-size: 24px;\n    }\n    .tsumugi__contents--ttl{\n        text-align: center;\n    }\n    .tsumugi__contents--wrapper{\n        width: 100%;\n        max-width: 1090px;\n        margin: 0 auto;\n        padding: 40px 0 0;\n        display: flex;\n    }\n    .tsumugi__contents--txts{\n        width: 50%;\n        padding-left: 60px;\n    }\n    .tsumugi__contents--img{\n        width: 50%;\n    }\n    .tsumugi__contents--txt{\n\n    }\n    @media only screen and (max-width: 749px){\n        .tsumugi__contents{\n            margin: 0 -22px;\n            padding-top: 40px;\n        }\n        .tsumugi__contents--ttl{\n            font-size: 18px;\n            margin: 0;\n            padding:0;\n        }\n        .tsumugi__contents--wrapper{\n            display: block;\n            padding: 22px 0;\n        }\n        .tsumugi__contents--txts{\n            width: 100%;\n            padding: 30px 20px;\n        }\n        .tsumugi__contents--img{\n            width: 100%;\n        }\n    }\n<\/style>",
+              "width": "100%"
+            }
+          }
+        },
+        "block_order": [
+          "4e94c66c-c3eb-4051-a2be-fc8b46876cac"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "16227187849278cd28": {
+        "type": "custom-content",
+        "blocks": {
+          "24c9a0dc-1dbc-4fb1-9908-ad11c203b50e": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"tsumugi__contents\">\n    <div class=\"tsumugi__contents--inner\">\n        <p class=\"tsumugi__contents--ttl\">忌避剤「ピぺリジン」を糸に加工<\/p>\n        <div class=\"tsumugi__contents--wrapper\">\n            <div class=\"tsumugi__contents--img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/cont_04_b01c985a-af76-4e2f-97f3-161a5abd3d89.jpg?v=1613778301\" alt=\"\" width=\"100%\">\n            <\/div>\n            <div class=\"tsumugi__contents--txts\">\n                <p class=\"tsumugi__contents--txt\">ピぺリジンとは<br><br>\n虫よけ剤として広く使われている化合物「ディート」よりも3倍以上効果が長持ちし、防虫効果のある成分では安全性が高いと言われています。<br><br>\n                    不快害虫に対して忌避効力を持ち、「ピペリジン」系化合物は認知能力を混乱させる効力が強いため、害虫が肌に止まりにくくなります。<br><br>\n                    マイクロカプセル製剤なので、洗濯にも強く、効果が長持ちします。\n                    <\/p>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/div>",
+              "width": "100%"
+            }
+          }
+        },
+        "block_order": [
+          "24c9a0dc-1dbc-4fb1-9908-ad11c203b50e"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "162271920194efaa7b": {
+        "type": "custom-content",
+        "blocks": {
+          "ce5c6059-3106-48a3-a77b-3d0a2525302b": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"tsumugi__contents_bl\">\n    <div class=\"tsumugi__contents--inner\">\n        <p class=\"tsumugi__contents--ttl\">高い技術力と国産糸<\/p>\n        <div class=\"tsumugi__contents--wrapper\">\n            <div class=\"tsumugi__contents--img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/800_800__1_18_9434b342-f9db-4a7e-b297-5fcfccbe43c6_540x.jpg?v=1594615781\" alt=\"\" width=\"100%\">\n            <\/div>\n            <div class=\"tsumugi__contents--txts\">\n                <p class=\"tsumugi__contents--txt\">ふんわりとした柔らかい肌ざわりを追求、長年培ってきた技術力を活かし、通常の商品よりも多い、約350本（通常200～250本）もの針数を使用。<br><br>\n                    質の高い国産糸をきめ細かく編み上げています。<br><br>\n                    糸が多いことで、肌ざわりの良い糸がより肌に密着し、着心地がよくなります。また、編み目が細かくなることで、虫除け効果を高めます。<br><br>\n                    更に今回60デニールを採用したことにより、各種効果効能が上がり、暑い夏でもベタつかずひんやりとした履き心地です。\n                    <\/p>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/div>",
+              "width": "100%"
+            }
+          }
+        },
+        "block_order": [
+          "ce5c6059-3106-48a3-a77b-3d0a2525302b"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "1622719446e6ee0166": {
+        "type": "custom-content",
+        "blocks": {
+          "4c8ca880-bde6-4313-a47d-98226698c25c": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"tsumugi__contents\">\n    <div class=\"tsumugi__contents--inner\">\n        <p class=\"tsumugi__contents--ttl\">冷却加工\/キシリトール成分配合<\/p>\n        <div class=\"tsumugi__contents--wrapper\">\n            <div class=\"tsumugi__contents--img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/800_800__1_21_540x.jpg?v=1594270681\" alt=\"\" width=\"100%\">\n            <\/div>\n            <div class=\"tsumugi__contents--txts\">\n                <p class=\"tsumugi__contents--txt\">熱がこもりにくい「羊雲型糸」を採用<br><br>\n                    糸1本1本に数ミクロンレベルで微細な凹凸を施した「扁平八葉断面（羊雲型糸）」により従来の糸に比べて抜群の吸水性と速乾性(吸水性は通常糸比2倍強)が期待されます。<br><br>\n                    また、肌との接触面積が大きい分、触った瞬間にひんやりとする接触冷感が効果も実現。<br><br>\n                    キシリトール成分を糸にコーティング速乾効果と接触冷感が期待されます。\n                    <\/p>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/div>\n\n\n<style>\n    .tsumugi__contents{\n        width: 100wh;\n        margin: 0 -50%;\n        padding-top:40px;\n    }\n    .tsumugi__contents--ttl{\n        font-weight: bold;\n        font-size: 24px;\n    }\n    .tsumugi__contents--ttl{\n        text-align: center;\n    }\n    .tsumugi__contents--wrapper{\n        width: 100%;\n        max-width: 1090px;\n        margin: 0 auto;\n        padding: 40px 0;\n        display: flex;\n    }\n    .tsumugi__contents--txts{\n        width: 50%;\n        padding-left: 60px;\n    }\n    .tsumugi__contents--img{\n        width: 50%;\n    }\n    .tsumugi__contents--txt{\n\n    }\n    @media only screen and (max-width: 749px){\n        .tsumugi__contents{\n            margin: 0 -22px;\n            padding-top: 40px;\n        }\n        .tsumugi__contents--ttl{\n            font-size: 18px;\n            margin: 0 0 30px;\n            padding:0;\n        }\n        .tsumugi__contents--wrapper{\n            display: block;\n            padding:  0 22px;\n        }\n        .tsumugi__contents--txts{\n            width: 100%;\n            padding: 30px 0;\n        }\n        .tsumugi__contents--img{\n            width: 100%;\n\n        }\n\n    }\n<\/style>",
+              "width": "100%"
+            }
+          }
+        },
+        "block_order": [
+          "4c8ca880-bde6-4313-a47d-98226698c25c"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "1622720403e4406571": {
+        "type": "custom-content",
+        "blocks": {
+          "2e559ad2-2d3e-4caa-a3e1-0ffd9c3045b3": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"tsumugi__contents_bl\">\n    <div class=\"tsumugi__contents--inner\">\n        <p class=\"tsumugi__contents--ttl\">99%以上　UVカット<\/p>\n        <div class=\"tsumugi__contents--wrapper\">\n            <p class=\"tsumugi__contents--stxt\">ミラーコーティングを糸に施し、紫外線を反射。<br><br>\n                編み目が細かいことで、紫外線を通しにくい構造になり強い日差しからも肌を守ります。<\/p>\n        <\/div>\n    <\/div>\n<\/div>\n\n<style>\n                .tsumugi__magazine{\n                    margin-top: -200px;\n                }\n\n        @media only screen and (max-width: 749px){\n            .tsumugi__magazine{\n                margin: -70px -22px 0;\n            }\n        }\n<\/style>",
+              "width": "100%"
+            }
+          }
+        },
+        "block_order": [
+          "2e559ad2-2d3e-4caa-a3e1-0ffd9c3045b3"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "16227759409b80ef46": {
+        "type": "custom-content",
+        "blocks": {
+          "b93f762b-34b6-48c5-9052-e3363cd2979a": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"tsumugi__magazine\">\n        <div class=\"tsumugi__contents--inner\">\n        <p class=\"tsumugi__magazine--ttl\">取り上げてくださったメディア<\/p>\n        <ul class=\"tsumugi__magazineList\">\n        <li>\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/logo_1.png?v=1623062452\" alt=\"VERY\" width=\"100%\">\n        <!-- <p class=\"tsumugi__magazine--text\">VERY<\/p> -->\n        <\/li>\n        <li>\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/logo_2.png?v=1623062452\" alt=\"CLASSY\" width=\"100%\">\n        <!-- <p class=\"tsumugi__magazine--text\">CLASSY<\/p> -->\n        <\/li>\n        <li>\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/logo_3.png?v=1623062452\" alt=\"STORY\" width=\"100%\">\n        <!-- <p class=\"tsumugi__magazine--text\">STORY<\/p> -->\n        <\/li>\n    <\/ul>\n\n        <ul class=\"tsumugi__magazineList02\">\n            <li>\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/logo_5.png?v=1623062452\" alt=\"STORY\" width=\"100%\">\n                    <!-- <p class=\"tsumugi__magazine--text\">からだにいいこと<\/p> -->\n                    <\/li>\n            <li>\n    <a href=\"https:\/\/kinarino.jp\/cat1\/40609\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/logo_4_30cc2779-a5e8-4614-a467-6e4b99c9f70e.png?v=1623062452\" alt=\"キナリノ\" width=\"100%\"><\/a>\n                <!-- <p class=\"tsumugi__magazine--text\">キナリノ<\/p> -->\n                <\/li>\n\n\n\n        \n    <\/ul>\n    <ul class=\"tsumugi__magazineList\">\n        <li>\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/logo_6_457eb7a3-7335-4dd7-9a82-c33962ae1523.png?v=1623062452\" alt=\"キャンプクエスト\" width=\"100%\">\n                <!-- <p class=\"tsumugi__magazine--text\">キャンプクエスト<\/p> -->\n                <\/li>\n        <li>\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/logo_7_55a0f7d8-0b2d-4b76-b323-38193a47fddd.png?v=1623062452\" alt=\"キャンプクエスト\" width=\"100%\">\n                <!-- <p class=\"tsumugi__magazine--text\">TAKIBI<\/p> -->\n                <\/li>\n        <li>\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/logo_8.png?v=1623062452\" alt=\"MAAGZ\" width=\"100%\">\n        <!-- <p class=\"tsumugi__magazine--text\">MAAGZ<\/p> -->\n        <\/li>\n        <!-- <li>\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/logo05.png?v=1623033444\" alt=\"WWS\" width=\"100%\">\n            <p class=\"tsumugi__magazine--text\">WWS CHANNEL<\/p>\n            <\/li> -->\n    <\/ul>\n        <\/div>\n        <\/div>\n        <style>\n\n        @media only screen and (max-width: 749px) {\n            .tsumugi__magazine {\n                padding-top:70px;\n            }\n             .tsumugi__magazineList li{\n                width: 32%;\n            }\n            .tsumugi__magazineList02 li{\n                width: 32%;\n            }\n        }\n    <\/style>",
+              "width": "100%"
+            }
+          }
+        },
+        "block_order": [
+          "b93f762b-34b6-48c5-9052-e3363cd2979a"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "1623071412f7694b41": {
+        "type": "instafeed",
+        "settings": {
+          "heading_font": "helvetica_n4",
+          "heading_size": 19,
+          "feed_width": 100,
+          "html_area": ""
+        }
+      },
+      "162309907215356a03": {
+        "type": "custom-content",
+        "blocks": {
+          "2e5a59e6-e7aa-4219-8497-fc5f86fdab8e": {
+            "type": "html",
+            "disabled": true,
+            "settings": {
+              "code": "<div class=\"tsumugi__contents tsumugi__ngo\" style=\"background: #FFF;\">\n    <div class=\"tsumugi__contents--inner\">\n        <p class=\"tsumugi__contents--ttl\">国際協力NGO「ジョイセフ」との取り組み<\/p>\n        <div class=\"tsumugi__contents--wrapper\">\n            <div class=\"tsumugi__contents--img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/CMYK_2_900x.jpg?v=1594627233\" alt=\"\" width=\"100%\">\n            <\/div>\n            <div class=\"tsumugi__contents--txts\">\n                <p style=\"font-weight: bold; text-align: center;\">助けたい命があり、助かる命があります。<\/p>\n\n                <p class=\"tsumugi__contents--txt\">公益財団法人ジョイセフの開発途上国を含む、世界の女性の命と健康を守るための活動を応援するため、<br><br>売上の３％を支援致します。 <\/p>\n            <\/div>\n        <\/div>\n\n        <div class=\"tsumugi__contents--wrapper\">\n            <div class=\"tsumugi__contents--img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/logo_SDGs_58c049ac-04fc-443e-b769-2e1247d99663_900x.jpg?v=1594271160\" alt=\"\" width=\"100%\">\n            <\/div>\n            <div class=\"tsumugi__contents--txts\">\n                <p style=\"font-weight: bold; text-align: center;\">国連総会で採択された「持続可能な開発目標（SDGs）」 <\/p>\n                <p class=\"tsumugi__contents--txt\">3.すべての人に健康と福祉を<br><br>\n                    に賛同し、取り組んでおります。<\/p>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/div>\n\n\n<style>\n    .tsumugi__ngo{\n        padding-top: 200px;\n        margin-top: -200px;\n    }\n\n@media only screen and (max-width: 749px){\n.tsumugi__ngo{\n    padding-top: 70px;\n\n    margin: -70px -22px 0;\n}\n.tsumugi__contents--ttl{\n    padding: 0 22px;\n}\n}\n<\/style>",
+              "width": "100%"
+            }
+          }
+        },
+        "block_order": [
+          "2e5a59e6-e7aa-4219-8497-fc5f86fdab8e"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "16231030008fd7b1b7": {
+        "type": "custom-content",
+        "blocks": {
+          "678af02a-1836-4311-8149-cb9ba8b2d339": {
+            "type": "html",
+            "settings": {
+              "code": "<style>\n    .tsumugi__kodawari{\n        padding: 50px 0;\n        display: block;\n    }\n    .tsumugi__kodawari--txt{\n        text-align: center;\n\n    }\n\n    @media only screen and (max-width: 749px){\n        .tsumugi__kodawari{\n            display: block;\n            width: 100%;\n        }\n\n    }\n<\/style>",
+              "width": "100%"
+            }
+          }
+        },
+        "block_order": [
+          "678af02a-1836-4311-8149-cb9ba8b2d339"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "162337898366b9c517": {
+        "type": "custom-content",
+        "blocks": {
+          "174dff86-7855-486c-b36d-ceedd075f3da": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"tsumugi__kodawari\">\n    <h4 class=\"tsumugi__concept--ttl h3\"> <a href=\"\/pages\/%E3%81%93%E3%81%A0%E3%82%8F%E3%82%8A\">こだわり<\/a>\n<\/h4>\n         <p class=\"tsumugi__kodawari--txt\"> <a href=\"\/pages\/%E3%81%93%E3%81%A0%E3%82%8F%E3%82%8A\">人に優しくありたい。<br>技術でお役に立ちたい。<\/a><\/p>\n         \n <\/div>\n \n \n <style>\n     .tsumugi__kodawari{\n         margin: 50px 0;\n         display: block;\n     }\n     .tsumugi__kodawari--txt{\n         text-align: center;\n \n     }\n \n     @media only screen and (max-width: 749px){\n         .tsumugi__kodawari{\n             display: block;\n             width: 100%;\n         }\n \n     }\n <\/style>",
+              "width": "100%"
+            }
+          }
+        },
+        "block_order": [
+          "174dff86-7855-486c-b36d-ceedd075f3da"
+        ],
+        "settings": {
+          "title": ""
+        }
+      }
+    },
+    "content_for_index": [
+      "16227099934b09cdaf",
+      "hero",
+      "1492033809691",
+      "1492033924902",
+      "1622712792a8ea4c36",
+      "16227129136e3df31f",
+      "16227083745e094f77",
+      "1622685184fc76c89e",
+      "162271573490f823db",
+      "162337898366b9c517",
+      "16231030008fd7b1b7",
+      "162271596225adeb12",
+      "16227187849278cd28",
+      "162271920194efaa7b",
+      "1622719446e6ee0166",
+      "1622720403e4406571",
+      "162309907215356a03",
+      "16227759409b80ef46",
+      "1623071412f7694b41",
+      "1622714466e3a79f8d"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {}
+        },
+        "hero-1": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "text_size": "large"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {}
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-1": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-2": {
+              "type": "text_block",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "grid": 4
+          }
+        },
+        "hero-2": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "quotes": {
+          "type": "quotes",
+          "blocks": {
+            "quotes-0": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-1": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-2": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "quotes-0",
+            "quotes-1",
+            "quotes-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "image-bar": {
+          "type": "image-bar",
+          "blocks": {
+            "image-bar-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-1": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-2": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "image-bar-0",
+            "image-bar-1",
+            "image-bar-2"
+          ],
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "footer-1": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1"
+          ],
+          "settings": {
+            "show_payment_icons": true
+          }
+        }
+      },
+      "content_for_index": [
+        "hero-1",
+        "feature-row",
+        "feature-columns",
+        "collection",
+        "hero-2",
+        "quotes",
+        "image-bar"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_vendor": false,
+            "show_share_buttons": true,
+            "media_size": "medium",
+            "enable_image_zoom": true,
+            "enable_video_looping": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {}
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {}
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "color_footer_bg": "#f8f8f8",
+            "color_footer_text": "#6d6d6d"
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import "https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500&display=swap";
+body {
+  font-family: "Shippori Mincho", "Outfit", sans-serif !important;
+}
+
+.site-footer__linklist-item {
+  font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif !important;
+}
+
+body {
+  font-family: "Shippori Mincho", "Outfit", sans-serif !important;
+  color: red !important;
+}
+
+p {
+  font-family: "Shippori Mincho", "Outfit", sans-serif !important;
+}
+
+.tsugumi__concept--subttl {
+  color: red !important;
+}
