@@ -1,21 +1,21 @@
 {
   "current": {
-    "color_text": "#162950",
-    "color_body_text": "#6d6d6d",
+    "color_text": "#444444",
+    "color_body_text": "#444444",
     "color_sale_text": "#DA2F0C",
     "color_button": "#dad098",
     "color_button_text": "#ffffff",
-    "color_small_button_text_border": "#162950",
-    "color_text_field_text": "#162950",
+    "color_small_button_text_border": "#444444",
+    "color_text_field_text": "#444444",
     "color_text_field_border": "#909090",
     "color_text_field": "#faf9f6",
     "color_image_overlay_text": "#ffffff",
     "color_image_overlay": "#3d3d3d",
     "image_overlay_opacity": 40,
     "color_borders": "#e4e4e4",
-    "color_body_bg": "#fbf9f5",
+    "color_body_bg": "#ffffff",
     "type_header_font": "muli_n6",
-    "type_header_base_size": 26,
+    "type_header_base_size": 22,
     "type_base_font": "muli_n4",
     "type_base_size": 18,
     "share_facebook": true,
@@ -24,7 +24,7 @@
     "social_twitter_link": "",
     "social_facebook_link": "",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/mami_ishioka\/",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
     "social_youtube_link": "",
@@ -203,35 +203,27 @@
           "link_list": {
             "type": "link_list",
             "settings": {
-              "title": "クイックリンク",
+              "title": "",
               "menu": "footer"
-            }
-          },
-          "text": {
-            "type": "text",
-            "settings": {
-              "title": "あなたのビジネスについて語る",
-              "text": "<p>ストア詳細、プロモーション、ブランドのコンテンツをお客様と共有する。<\/p>"
             }
           },
           "newsletter": {
             "type": "newsletter",
             "settings": {
-              "title": "ニュースレター"
+              "title": ""
             }
           }
         },
         "block_order": [
           "link_list",
-          "text",
           "newsletter"
         ],
         "settings": {
           "show_payment_icons": false,
-          "color_footer_bg": "#f8f8f8",
-          "color_footer_text": "#6d6d6d",
-          "show_locale_selector": true,
-          "show_currency_selector": true
+          "color_footer_bg": "#ffffff",
+          "color_footer_text": "#444444",
+          "show_locale_selector": false,
+          "show_currency_selector": false
         }
       },
       "1622685184fc76c89e": {

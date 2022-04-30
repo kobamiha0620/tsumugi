@@ -83,6 +83,7 @@
     {{ base_font_bolder | font_face: font_display: 'swap' }}
     {{ base_font_italic | font_face: font_display: 'swap' }}
     {{ base_font_bold_italic | font_face: font_display: 'swap' }}
+
   </style>
 
   <script>
@@ -186,7 +187,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500&display=swap" rel="stylesheet">
-  {{ 'style.css' | asset_url | stylesheet_tag }}
   {{ content_for_header }}
 </head>
 
@@ -226,5 +226,7 @@
     <li id="a11y-refresh-page-message">{{ 'general.accessibility.refresh_page' | t }}</li>
     <li id="a11y-selection-message">{{ 'general.accessibility.selection_help' | t }}</li>
   </ul>
+  {{ 'style.css' | asset_url | stylesheet_tag }}
+    
 </body>
 </html>
