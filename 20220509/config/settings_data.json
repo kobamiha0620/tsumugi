@@ -1,12 +1,12 @@
 {
   "current": {
-    "color_text": "#444444",
-    "color_body_text": "#444444",
+    "color_text": "#000000",
+    "color_body_text": "#000000",
     "color_sale_text": "#DA2F0C",
-    "color_button": "#dad098",
+    "color_button": "#182a52",
     "color_button_text": "#ffffff",
-    "color_small_button_text_border": "#444444",
-    "color_text_field_text": "#444444",
+    "color_small_button_text_border": "#000000",
+    "color_text_field_text": "#000000",
     "color_text_field_border": "#909090",
     "color_text_field": "#faf9f6",
     "color_image_overlay_text": "#ffffff",
@@ -62,6 +62,7 @@
       },
       "hero": {
         "type": "hero",
+        "disabled": true,
         "settings": {
           "image": "shopify:\/\/shop_images\/202110c_7186c9fa-284f-4170-a30c-59c5a31a998f.png",
           "alignment": "center",
@@ -148,6 +149,7 @@
       },
       "1492033924902": {
         "type": "custom-content",
+        "disabled": true,
         "blocks": {
           "1492033924902-0": {
             "type": "text",
@@ -247,6 +249,7 @@
       },
       "16227083745e094f77": {
         "type": "custom-content",
+        "disabled": true,
         "blocks": {
           "dbc294fb-a268-4f27-a1ac-6976606dd910": {
             "type": "html",
@@ -335,6 +338,7 @@
       },
       "1622714466e3a79f8d": {
         "type": "feature-row",
+        "disabled": true,
         "settings": {
           "image": "shopify:\/\/shop_images\/S__3760199.jpg",
           "layout": "left",
@@ -407,6 +411,7 @@
       },
       "16227187849278cd28": {
         "type": "custom-content",
+        "disabled": true,
         "blocks": {
           "24c9a0dc-1dbc-4fb1-9908-ad11c203b50e": {
             "type": "html",
@@ -425,6 +430,7 @@
       },
       "162271920194efaa7b": {
         "type": "custom-content",
+        "disabled": true,
         "blocks": {
           "ce5c6059-3106-48a3-a77b-3d0a2525302b": {
             "type": "html",
@@ -443,6 +449,7 @@
       },
       "1622719446e6ee0166": {
         "type": "custom-content",
+        "disabled": true,
         "blocks": {
           "4c8ca880-bde6-4313-a47d-98226698c25c": {
             "type": "html",
@@ -461,6 +468,7 @@
       },
       "1622720403e4406571": {
         "type": "custom-content",
+        "disabled": true,
         "blocks": {
           "2e559ad2-2d3e-4caa-a3e1-0ffd9c3045b3": {
             "type": "html",
@@ -504,45 +512,9 @@
           "html_area": ""
         }
       },
-      "162309907215356a03": {
-        "type": "custom-content",
-        "blocks": {
-          "2e5a59e6-e7aa-4219-8497-fc5f86fdab8e": {
-            "type": "html",
-            "disabled": true,
-            "settings": {
-              "code": "<div class=\"tsumugi__contents tsumugi__ngo\" style=\"background: #FFF;\">\n    <div class=\"tsumugi__contents--inner\">\n        <p class=\"tsumugi__contents--ttl\">国際協力NGO「ジョイセフ」との取り組み<\/p>\n        <div class=\"tsumugi__contents--wrapper\">\n            <div class=\"tsumugi__contents--img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/CMYK_2_900x.jpg?v=1594627233\" alt=\"\" width=\"100%\">\n            <\/div>\n            <div class=\"tsumugi__contents--txts\">\n                <p style=\"font-weight: bold; text-align: center;\">助けたい命があり、助かる命があります。<\/p>\n\n                <p class=\"tsumugi__contents--txt\">公益財団法人ジョイセフの開発途上国を含む、世界の女性の命と健康を守るための活動を応援するため、<br><br>売上の３％を支援致します。 <\/p>\n            <\/div>\n        <\/div>\n\n        <div class=\"tsumugi__contents--wrapper\">\n            <div class=\"tsumugi__contents--img\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0414\/1691\/7158\/files\/logo_SDGs_58c049ac-04fc-443e-b769-2e1247d99663_900x.jpg?v=1594271160\" alt=\"\" width=\"100%\">\n            <\/div>\n            <div class=\"tsumugi__contents--txts\">\n                <p style=\"font-weight: bold; text-align: center;\">国連総会で採択された「持続可能な開発目標（SDGs）」 <\/p>\n                <p class=\"tsumugi__contents--txt\">3.すべての人に健康と福祉を<br><br>\n                    に賛同し、取り組んでおります。<\/p>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/div>\n\n\n<style>\n    .tsumugi__ngo{\n        padding-top: 200px;\n        margin-top: -200px;\n    }\n\n@media only screen and (max-width: 749px){\n.tsumugi__ngo{\n    padding-top: 70px;\n\n    margin: -70px -22px 0;\n}\n.tsumugi__contents--ttl{\n    padding: 0 22px;\n}\n}\n<\/style>",
-              "width": "100%"
-            }
-          }
-        },
-        "block_order": [
-          "2e5a59e6-e7aa-4219-8497-fc5f86fdab8e"
-        ],
-        "settings": {
-          "title": ""
-        }
-      },
-      "16231030008fd7b1b7": {
-        "type": "custom-content",
-        "blocks": {
-          "678af02a-1836-4311-8149-cb9ba8b2d339": {
-            "type": "html",
-            "settings": {
-              "code": "<style>\n    .tsumugi__kodawari{\n        padding: 50px 0;\n        display: block;\n    }\n    .tsumugi__kodawari--txt{\n        text-align: center;\n\n    }\n\n    @media only screen and (max-width: 749px){\n        .tsumugi__kodawari{\n            display: block;\n            width: 100%;\n        }\n\n    }\n<\/style>",
-              "width": "100%"
-            }
-          }
-        },
-        "block_order": [
-          "678af02a-1836-4311-8149-cb9ba8b2d339"
-        ],
-        "settings": {
-          "title": ""
-        }
-      },
       "162337898366b9c517": {
         "type": "custom-content",
+        "disabled": true,
         "blocks": {
           "174dff86-7855-486c-b36d-ceedd075f3da": {
             "type": "html",
@@ -558,6 +530,14 @@
         "settings": {
           "title": ""
         }
+      },
+      "tsumugi-top": {
+        "type": "tsumugi-top",
+        "settings": {}
+      },
+      "tsumugi-author": {
+        "type": "tsumugi-author",
+        "settings": {}
       }
     },
     "content_for_index": [
@@ -571,13 +551,11 @@
       "1622685184fc76c89e",
       "162271573490f823db",
       "162337898366b9c517",
-      "16231030008fd7b1b7",
       "162271596225adeb12",
       "16227187849278cd28",
       "162271920194efaa7b",
       "1622719446e6ee0166",
       "1622720403e4406571",
-      "162309907215356a03",
       "16227759409b80ef46",
       "1623071412f7694b41",
       "1622714466e3a79f8d"

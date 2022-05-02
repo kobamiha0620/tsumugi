@@ -1,1 +1,26 @@
 @use "layout/*";
+
+
+// /* デフォルト：749px以下用（スマートフォン用）の記述 */
+
+// @media screen and (min-width: base.$BP) {
+//     /* 750px以上用（タブレット／スマートフォン用）の記述 */
+// }
+// @media screen and (min-width: base.$BP_l) {
+//     /* 750px以上用（タブレット用）の記述 */
+// }
+// @media screen and (min-width: base.$BP_w) {
+//     /* 1400px以上用（PC用）の記述 */
+// }
+
+
+// /* デフォルト：1400px以上用（PC用）の記述 */
+// @media screen and (max-width: base.$BP_w) {
+// /* 1399px以下用（タブレット用）の記述 */
+// }
+// @media screen and (max-width: base.$BP_l) {
+//     /* 990px以下用（タブレット／スマートフォン用）の記述 */
+// }
+// @media screen and (max-width: base.$BP) {
+//     /* 749px以下用（スマートフォン用）の記述 */
+// }

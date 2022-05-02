@@ -1,4 +1,4 @@
-$BP: 750px;
+html { font-size: 62.5%; }
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&display=swap');
@@ -8,5 +8,24 @@ body {
 }
 h1, h2, h3, h4, h5{
   font-family: 'Shippori Mincho', 'Noto Serif JP', serif!important;
-
 }
+$assets_path: "//cdn.shopify.com/s/files/1/0414/1691/7158/files/";
+
+@mixin bgimg($file) {
+	background-image: url($assets_path + $file);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: 100% auto;
+    white-space: nowrap;
+    text-indent: -9999px;
+    display: block;
+	@content;
+}
+
+$BP: 750px;
+$BP_l: 990px;
+$BP_w: 1400px;
+$PC:1090px;
+$CR: #444444;
+$BC: #000000;
+$BG: #f7f2c7;
