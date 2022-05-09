@@ -1,11 +1,6 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
-<script src="{{ 'slick.min.js' | asset_url }}" async="async"></script>  
-<script src="{{ 'tsumugiproduct.js' | asset_url }}" async="async"></script> 
-
-<link rel="stylesheet" type="text/css" href="{{ 'slick.css' | asset_url }}"/>
-<link rel="stylesheet" type="text/css" href="{{ 'slick-theme.css' | asset_url }}"/>
 
 <div class="product-template__container page-width"
   id="ProductSection-{{ section.id }}"
@@ -232,6 +227,11 @@
   </script>
 {% endunless %}
 
+<link rel="stylesheet" type="text/css" href="{{ 'slick.css' | asset_url }}"/>
+<link rel="stylesheet" type="text/css" href="{{ 'slick-theme.css' | asset_url }}"/>
+
+<script src="{{ 'slick.min.js' | asset_url }}"></script>  
+<script src="{{ 'tsumugiproduct.js' | asset_url }}"></script> 
 
 
 {% schema %}
