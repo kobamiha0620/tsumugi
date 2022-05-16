@@ -1,5 +1,5 @@
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js" defer="defer"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js" defer="defer"></script>
 
 <section class="top">
     <h1 class="top__ttl">
@@ -22,11 +22,11 @@
             <p class="contents__txt">奈良県大和高田市で創業70年<br>
                 老舗パンティストッキング専業メーカーが<br>
                 長く渡り培われた技術力<br>
-                機械的に意図を紡ぐだけではない<br>
+                機械的に糸を紡ぐだけではない<br>
                 「想い」と「愛」で紡がれ誕生したブランドです</p>
         </div>
         <figure class="aboutus__img">
-            <img src="{{ 'img_about.png' | file_url }}" alt="商品写真" width="auto" height="auto" loading="lazy" width="auto" height="auto" loading="lazy">
+            <img src="{{ 'subimg.png' | file_url }}" alt="商品写真" width="auto" height="auto" loading="lazy" width="auto" height="auto" loading="lazy">
         </figure>
     </div>
 </section>
@@ -61,7 +61,7 @@
     <ul class="items__product">
         <li>
             <a href="{{ routes.root_url }}products/着圧虫除けキシリトールレギンス">
-                <img src="{{ 'img_items01.png' | file_url }}" alt="着圧・虫除け冷却レギンス（女性用）" width="auto" height="auto" loading="lazy">
+                <img src="{{ 'img_items01b.png' | file_url }}" alt="着圧・虫除け冷却レギンス（女性用）" width="auto" height="auto" loading="lazy">
                 <p class="items__name">着圧・虫除け冷却レギンス（女性用）</p>
             </a>
         </li>
@@ -85,11 +85,11 @@
 <section class="commit">
     <div class="contents__inner">
         <h3 class="contents__subttl">こだわり</h3>
-        <h2 class="contents__ttl">創業69年の技術力と想い</h2>
+        <h2 class="contents__ttl">創業70年の技術力と想い</h2>
         <figure class="commit__img">
             <img src="{{ 'img.png' | file_url }}" alt="こだわり" width="auto" height="auto" loading="lazy">
         </figure>
-        <p class="contents__txt">創業69年。福西メリヤス株式会社<br>
+        <p class="contents__txt">創業70年。福西メリヤス株式会社<br>
             <br>
             戦後まもなく靴下製造業として<br>
             奈良県大和高田市に創業。<br>
@@ -185,10 +185,10 @@
     <div class="contents__inner">
         <div class="mainslink__slick--wrapper">
 
-            <ul class="mainslink__slick">
+            <ul class="mainslink__slicktop">
                 <li>
                     <a href="{{ routes.root_url }}products/着圧虫除けキシリトールレギンス">
-                        <img src="{{ 'img_items01.png' | file_url }}" alt="着圧・虫除け冷却レギンス（女性用）" width="auto" height="auto" loading="lazy">
+                        <img src="{{ 'img_items01b.png' | file_url }}" alt="着圧・虫除け冷却レギンス（女性用）" width="auto" height="auto" loading="lazy">
                         <p class="items__name">着圧・虫除け冷却レギンス（女性用）</p>
                     </a>
                 </li>
@@ -213,5 +213,5 @@
 <link rel="stylesheet" type="text/css" href="{{ 'slick.css' | asset_url }}"/>
 <link rel="stylesheet" type="text/css" href="{{ 'slick-theme.css' | asset_url }}"/>
 
-<script src="{{ 'slick.min.js' | asset_url }}"></script>  
-<script src="{{ 'tsumugiproduct.js' | asset_url }}"></script> 
+<script src="{{ 'slick.min.js' | asset_url }}" defer="defer"></script>  
+<script src="{{ 'tsumugiproduct.js' | asset_url }}" defer="defer"></script> 

@@ -49,14 +49,14 @@
         "type": "header",
         "settings": {
           "align_logo": "left",
-          "logo": "shopify:\/\/shop_images\/logo_889eb648-a139-408a-8c2e-7542d4de577b.png",
+          "logo": "shopify:\/\/shop_images\/tsumugiLogo.png",
           "logo_max_width": 135,
           "main_linklist": "main-menu",
           "message": false,
           "home_page_only": true,
           "message_text": "TSUMUGI",
           "message_link": "",
-          "color_bg": "#162950",
+          "color_bg": "#ffffff",
           "color_text": "#ffffff"
         }
       },
@@ -538,6 +538,26 @@
       "tsumugi-author": {
         "type": "tsumugi-author",
         "settings": {}
+      },
+      "product-tsumugi02": {
+        "type": "product-tsumugi02",
+        "settings": {
+          "show_quantity_selector": false,
+          "show_vendor": false,
+          "enable_payment_button": true,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "あなたへのおすすめ",
+          "show_vendor": false
+        }
       }
     },
     "content_for_index": [

@@ -28,7 +28,8 @@
   {%- if available == false %} price--sold-out {% endif -%}
   {%- if compare_at_price > price %} price--on-sale {% endif -%}
   {%- if product.price_varies == false and product.compare_at_price_varies %} price--compare-price-hidden {% endif -%}
-  {%- if variant.unit_price_measurement %} price--unit-available {% endif -%}">
+  {%- if variant.unit_price_measurement %} price--unit-available {% endif -%}"
+>
   {% if show_vendor and product %}
     <div class="price__vendor price__vendor--listing">
       <dt>
@@ -58,7 +59,6 @@
         {%- else -%}
           {{ money_price }}
         {%- endif -%}
-        <b class="price_attention">(税込) ※送料無料</b>
       </span>
     </dd>
   </div>

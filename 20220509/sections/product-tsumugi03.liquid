@@ -45,25 +45,48 @@
         <div class="mainslink">
             <ul class="mainslink__slick">
                 <li>
-                    <img src="{{ 'img01_product03.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
-                    <p class="mainslink__txt">商品画像：装着イメージなど入る</p>
+                    <img src="{{ 'img_m1.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
+                    <p class="mainslink__txt"></p>
                 </li>
                 <li>
-                    <img src="{{ 'img02_product03.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
-                    <p class="mainslink__txt">商品画像：装着イメージなど入る</p>
+                    <img src="{{ 'img_m2.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
+                    <p class="mainslink__txt"></p>
                 </li>
                 <li>
-                    <img src="{{ 'img03_product03.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
-                    <p class="mainslink__txt">商品画像：装着イメージなど入る</p>
+                    <img src="{{ 'img_m3.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
+                    <p class="mainslink__txt"></p>
                 </li>
 
                 <li>
-                  <img src="{{ 'img06_product01.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
-                  <p class="mainslink__txt">商品画像：装着イメージなど入る</p>
+                  <img src="{{ 'item_up2.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
+                  <p class="mainslink__txt"></p>
               </li>
               <li>
-                <img src="{{ 'img05_product03.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
-                <p class="mainslink__txt">商品画像：装着イメージなど入る</p>
+                <img src="{{ 'img_m.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
+                <p class="mainslink__txt"></p>
+            </li>
+            </ul>
+              <ul class="slider-nav">
+                <li>
+                    <img src="{{ 'img_m1.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
+                    <p class="mainslink__txt"></p>
+                </li>
+                <li>
+                    <img src="{{ 'img_m2.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
+                    <p class="mainslink__txt"></p>
+                </li>
+                <li>
+                    <img src="{{ 'img_m3.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
+                    <p class="mainslink__txt"></p>
+                </li>
+
+                <li>
+                  <img src="{{ 'item_up2.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
+                  <p class="mainslink__txt"></p>
+              </li>
+              <li>
+                <img src="{{ 'img_m.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
+                <p class="mainslink__txt"></p>
             </li>
             </ul>
         </div>
@@ -74,7 +97,7 @@
 
         <h1 class="product-single__title">{{ product.title }}</h1>
         <script>window.performance.mark('debut:product:title_visible');</script>
-
+        <div class="product__price--wrapper">
           <div class="product__price">
             {% include 'product-price', variant: current_variant, show_vendor: section.settings.show_vendor %}
           </div>
@@ -82,13 +105,14 @@
           {%- if cart.taxes_included or shop.shipping_policy.body != blank -%}
             <div class="product__policies rte" data-product-policies>
               {%- if cart.taxes_included -%}
-                {{ 'products.product.include_taxes' | t }}
+               ({{ 'products.product.include_taxes' | t }}) ※送料無料
               {%- endif -%}
-              {%- if shop.shipping_policy.body != blank -%}
+              {% comment %} {%- if shop.shipping_policy.body != blank -%}
                 {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-              {%- endif -%}
+              {%- endif -%} {% endcomment %}
             </div>
           {%- endif -%}
+        </div>
 
           {% capture "form_classes" -%}
             product-form product-form-{{ section.id }}
