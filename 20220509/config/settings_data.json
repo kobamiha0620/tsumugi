@@ -221,7 +221,7 @@
           "newsletter"
         ],
         "settings": {
-          "show_payment_icons": false,
+          "show_payment_icons": true,
           "color_footer_bg": "#ffffff",
           "color_footer_text": "#444444",
           "show_locale_selector": false,
