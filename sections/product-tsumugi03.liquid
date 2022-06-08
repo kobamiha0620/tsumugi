@@ -1,5 +1,5 @@
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js" defer="defer"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js" defer="defer"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 
 <div class="product-template__container page-width"
@@ -41,83 +41,55 @@
 
   <div class="grid product-single{% if section.settings.enable_payment_button %} product-single--{{ section.settings.media_size }}-media{% endif %}">
     <div class="grid__item product-single__media-group {{ product_media_width }}{% if section.settings.media_size == 'full' %} product-single__media-group--full{% endif %}" data-product-single-media-group>
-
- 
         
+        <div class="mainslink">
+            <ul class="mainslink__slick">
+                <li>
+                    <img src="{{ 'img_m1.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
+                    <p class="mainslink__txt"></p>
+                </li>
+                <li>
+                    <img src="{{ 'img_m2.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
+                    <p class="mainslink__txt"></p>
+                </li>
+                <li>
+                    <img src="{{ 'img_m3.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
+                    <p class="mainslink__txt"></p>
+                </li>
 
-      <div class="mainslink">
-        <ul class="mainslink__slick">
-          <li>
-            <img src="{{ 'img_w2b.png' | file_url }}" alt="新規商品画像01" width="auto" height="auto"
-              loading="lazy">
-            <p class="mainslink__txt"></p>
-          </li>
-          <li>
-            <img src="{{ 'img_item_w02.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
-            <p class="mainslink__txt"></p>
-          </li>
-          <li>
-            <img src="{{ 'img_item_w03.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
-            <p class="mainslink__txt"></p>
-          </li>
+                <li>
+                  <img src="{{ 'item_up2.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
+                  <p class="mainslink__txt"></p>
+              </li>
+              <li>
+                <img src="{{ 'img_m.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
+                <p class="mainslink__txt"></p>
+            </li>
+            </ul>
+              <ul class="slider-nav">
+                <li>
+                    <img src="{{ 'img_m1.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
+                    <p class="mainslink__txt"></p>
+                </li>
+                <li>
+                    <img src="{{ 'img_m2.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
+                    <p class="mainslink__txt"></p>
+                </li>
+                <li>
+                    <img src="{{ 'img_m3.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
+                    <p class="mainslink__txt"></p>
+                </li>
 
-          <li>
-            <img src="{{ 'img_compare01b.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
-            <p class="mainslink__txt">156cm(左M-Lサイズ/右L-LLサイズ着用）</p>
-
-          </li>
-
-          <li>
-            <img src="{{ 'img_compare02c.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
-            <p class="mainslink__txt">166cm(左M-Lサイズ/右L-LLサイズ着用）</p>
-          </li>
-
-
-          <li>
-            <img src="{{ 'item_up2.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
-            <p class="mainslink__txt"></p>
-          </li>
-          <li>
-            <img src="{{ 'img_w2.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
-            <p class="mainslink__txt"></p>
-          </li>
-        </ul>
-        <ul class="slider-nav">
-          <li>
-            <img src="{{ 'img_w2b.png' | file_url }}" alt="新規商品画像01" width="auto" height="auto"
-              loading="lazy">
-            
-          </li>
-          <li>
-            <img src="{{ 'img_item_w02.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
-            
-          </li>
-
-          <li>
-            <img src="{{ 'img_item_w03.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
-            
-          </li>
-
-          <li>
-            <img src="{{ 'img_compare01b.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
-            
-          </li>
-
-          <li>
-            <img src="{{ 'img_compare02c.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
-          </li>
-
-
-          <li>
-            <img src="{{ 'item_up2.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
-            
-          </li>
-          <li>
-            <img src="{{ 'img_w2.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
-            
-          </li>
-        </ul>
-      </div>
+                <li>
+                  <img src="{{ 'item_up2.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
+                  <p class="mainslink__txt"></p>
+              </li>
+              <li>
+                <img src="{{ 'img_m.png' | file_url }}" alt="商品画像０１" width="auto" height="auto" loading="lazy">
+                <p class="mainslink__txt"></p>
+            </li>
+            </ul>
+        </div>
     </div>
 
     <div class="grid__item {{ product_description_width }}">
@@ -125,7 +97,6 @@
 
         <h1 class="product-single__title">{{ product.title }}</h1>
         <script>window.performance.mark('debut:product:title_visible');</script>
-
         <div class="product__price--wrapper">
           <div class="product__price">
             {% include 'product-price', variant: current_variant, show_vendor: section.settings.show_vendor %}
@@ -271,7 +242,6 @@
   </div>
 </div>
 
-
 {% unless product == empty %}
   <script type="application/json" id="ProductJson-{{ section.id }}">
     {{ product | json }}
@@ -284,10 +254,8 @@
 <link rel="stylesheet" type="text/css" href="{{ 'slick.css' | asset_url }}"/>
 <link rel="stylesheet" type="text/css" href="{{ 'slick-theme.css' | asset_url }}"/>
 
-<script src="{{ 'slick.min.js' | asset_url }}" defer="defer"></script>  
-<script src="{{ 'tsumugiproduct.js' | asset_url }}" defer="defer"></script> 
-
-
+<script src="{{ 'slick.min.js' | asset_url }}"></script>  
+<script src="{{ 'tsumugiproduct.js' | asset_url }}"></script> 
 
 
 {% schema %}
