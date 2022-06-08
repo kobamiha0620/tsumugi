@@ -24,3 +24,16 @@
 // @media screen and (max-width: base.$BP) {
 //     /* 749px以下用（スマートフォン用）の記述 */
 // }
+
+.product__price--wrapper{
+    display: flex;
+    
+}
+.price_attention{
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+
+.site-header__logo-image{
+    background-color: #FFF;
+}
