@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&display=swap";
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Shippori Mincho", "Noto Serif JP", serif !important;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Shippori Mincho", "Noto Serif JP", serif !important;
+}
+
+.thankyou {
+  border: solid 1px #c06266;
+  padding: 30px 20px;
+}
+
+.thankyou .thankyou__note {
+  text-align: center;
+}
+
+.thankyou__wrapper {
+  margin: 40px auto 0;
+  max-width: 700px;
+}
+
+.thankyou__blc {
+  max-width: 980px;
+  margin: 40px auto 0;
+}
+
+.thankyou__img {
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.thankyou__note {
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 5px 0 5px;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+.thankyou__blc2 {
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+.thankyou__ttl {
+  text-align: center;
+}
+
+.thankyou__txt {
+  text-align: center;
+}
+
+.thankyou__txt2 {
+  text-align: center;
+  font-weight: bold;
+  margin: 50px 0 5px;
+}
+
+.thankyou__coupon {
+  margin: 0 0 5px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.thankyou__coupon span {
+  font-size: 30px;
+  background-color: #f9dcde;
+  padding: 10px 20px;
+}
+
+.thankyou__list li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.main-content {
+  padding-top: 0;
+}
+
+@media screen and (max-width: 750px) {
+  .thankyou {
+    border: solid 1px #c06266;
+    padding: 20px 10px;
+    margin: 0 5%;
+  }
+
+  .thankyou__wrapper {
+    margin: 40px auto 0;
+    max-width: 700px;
+  }
+
+  .thankyou__blc {
+    max-width: 980px;
+    margin: 40px auto 0;
+  }
+
+  .thankyou__note {
+    font-size: 14px;
+    margin: 2px 0;
+    text-indent: -1em;
+    padding-left: 1em;
+  }
+
+  .thankyou__blc2 {
+    padding-left: 1em;
+    padding-top: 1em;
+  }
+
+  .thankyou__ttl {
+    text-align: center;
+  }
+
+  .thankyou__txt {
+    text-align: center;
+  }
+
+  .thankyou__coupon {
+    margin: 0 0 3px;
+  }
+
+  .thankyou__coupon span {
+    font-size: 26px;
+    padding: 10px 20px;
+  }
+
+  .thankyou__list li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1;
+  }
+}

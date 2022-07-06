@@ -1,0 +1,33 @@
+@import "https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&display=swap";
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Shippori Mincho", "Noto Serif JP", serif !important;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Shippori Mincho", "Noto Serif JP", serif !important;
+}
+
+.questionner__message {
+  margin: 40px 0 0;
+}
+
+.questionner__ttl {
+  margin: 40px 0 20px;
+}
+
+.questionner__list li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.main-content {
+  padding-top: 0;
+}

@@ -1,8 +1,15 @@
+
+{{ 'questionnair.css' | asset_url | stylesheet_tag }}
+
+      <h1>
+        <img src="{{ 'mainImg2_01.png' | asset_url }}" alt="15%OFF" width="auto" height="auto" loading="lazy">
+
+      </h1>
 <div class="page-width">
   <div class="grid">
     <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
       <div class="section-header text-center">
-        <h1>{{ page.title }}</h1>
+
       </div>
 
       {% if page.content.size > 0 %}
@@ -15,7 +22,7 @@
         {%- assign formId = 'ContactForm' -%}
         {% form 'contact', id: formId %}
         {%- if form.posted_successfully? -%}
-            <script>location.href="thanksforanswers";</script>
+            <script>location.href="beforethankyou";</script>
             {%-endif -%}
           {% include 'form-status', form: form, form_id: formId %}
 
@@ -31,6 +38,7 @@
                 id="{{ formId }}-email"
                 name="contact[email]"
                 autocorrect="off"
+                required class="required"
                 autocapitalize="off"
                 value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
                 aria-required="true"
@@ -41,7 +49,7 @@
                 {%- endif -%}
                 >
               {%- if form.errors contains 'email' -%}
-                <span id="{{ formId}}-email-error" class="input-error-message">
+                <span id="{{ formId }}-email-error" class="input-error-message">
                   <span class="visually-hidden">{{ 'general.accessibility.error' | t }} </span>
                   {% include 'icon-error' %}
                   <span>{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.</span>
@@ -50,14 +58,29 @@
             </div>
           </div>
 
-          <label for="{{ formId }}-phone">{{ 'contact.form.phone' | t }}</label>
-          <input type="tel" id="{{ formId }}-phone" name="contact[{{ 'contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+          <p class="questionner__ttl">購入された商品（複数選択可）</p>
+          
+          <ul class="questionner__list">
+            
+            <li><label　for="{{ formId }}-details"><input type="checkbox" id="{{ formId }}-details" name="contact[お問い合わせ内容]" value="女性用冷却レギンス：ブラック">女性用冷却レギンス：ブラック</label></li>
 
-          <label for="{{ formId }}-message">{{ 'contact.form.message' | t }}</label>
-          <textarea rows="10" id="{{ formId }}-message" name="contact[{{ 'contact.form.message' | t }}]">{% if form.body %}{{ form.body }}{% endif %}</textarea>
+            <li><label　for="{{ formId }}-details"><input type="checkbox" id="{{ formId }}-details" name="contact[お問い合わせ内容]" value="女性用冷却レギンス：グレージュ">女性用冷却レギンス：グレージュ　</label></li>
+            <li><label　for="{{ formId }}-details"><input type="checkbox" id="{{ formId }}-details" name="contact[お問い合わせ内容]" value="女性用着圧冷却レギンス：ブラック">女性用着圧冷却レギンス：ブラック</label></li>
+            <li><label　for="{{ formId }}-details"><input type="checkbox" id="{{ formId }}-details" name="contact[お問い合わせ内容]" value="女性用着圧冷却レギンス：グレージュ">女性用着圧冷却レギンス：グレージュ</label></li>
+            <li><label　for="{{ formId }}-details"><input type="checkbox" id="{{ formId }}-details" name="contact[お問い合わせ内容]" value="男性用冷却レギンス：ブラック">男性用冷却レギンス：ブラック</label></li>
+            <li><label　for="{{ formId }}-details"><input type="checkbox" id="{{ formId }}-details" name="contact[お問い合わせ内容]" value="購入していない">購入していない</label></li>
+          </ul>
+
+          {% comment %} <label for="{{ formId }}-phone">{{ 'contact.form.phone' | t }}</label>
+          <input type="tel" id="{{ formId }}-phone" name="contact[{{ 'contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}"> {% endcomment %}
+          
+          <div class="questionner__message">
+
+          <label for="{{ formId }}-message">商品を購入しての感想や商品販売サイトについて等「TSUMUGI」に関して感想をご記入ください。 * </label>
+          <textarea rows="10" required class="required" id="{{ formId }}-message" name="contact[{{ 'contact.form.message' | t }}]">{% if form.body %}{{ form.body }}{% endif %}</textarea>
 
           <input type="submit" class="btn" value="{{ 'contact.form.submit' | t }}">
-
+        </div>
         {% endform %}
         
       </div>

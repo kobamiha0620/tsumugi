@@ -189,6 +189,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500&display=swap" rel="stylesheet">
   {{ content_for_header }}
 {% render "rafp-render" %}
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js" defer="defer"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js" defer="defer"></script>
+<script src="{{ 'headeshowmore.js' | asset_url }}" defer="defer"></script>	
 </head>
 
 <body class="template-{{ request.page_type | handle }}">
@@ -200,6 +203,39 @@
   {%- endif -%}
 
   {% section 'header' %}
+
+  <div class="header__showmore--blcwrapper">
+
+  <div class="header__showmore" id="js-showmore">
+    <p>商品を見る</p>
+  </div>
+  
+  <div class="header__showmore--btm" id="js-accordion">
+  <div class="header__showmore--blc">
+    <div class="header__showmore--close" id="js-closeac">
+      <span>close</span>
+    </div>
+    <ul class="header__showmore--blclinks">
+      <li>
+        <a href="{{ routes.root_url }}products/着圧虫除けキシリトールレギンス">
+          <span class="headerProduct01">虫除けレギンス 女性用　着圧</span>
+        </a>
+      </li>
+      <li>
+        <a href="{{ routes.root_url }}products/虫除け冷却レギンス">
+          <span class="headerProduct02">虫除けレギンス 女性用</span>
+
+        </a>
+      </li>
+      <li>
+        <a href="{{ routes.root_url }}products/虫除け冷却レギンス-1">
+          <span class="headerProduct03">虫除けレギンス 男性用</span>
+
+        </a>
+      </li>
+    </ul>
+  </div>
+</div></div>
 
   <div class="page-container drawer-page-content" id="PageContainer">
 
