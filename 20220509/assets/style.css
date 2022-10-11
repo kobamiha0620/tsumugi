@@ -891,6 +891,36 @@ h1, h2, h3, h4, h5 {
     background-size: 100% auto;
   }
 }
+.top {
+  position: relative;
+}
+
+.top__note {
+  display: block;
+  padding: 100px 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.top__note p {
+  text-align: center;
+  display: block;
+  line-height: 2;
+}
+
+@media screen and (max-width: 750px) {
+  .top__note {
+    padding: 10vw 8vw;
+  }
+
+  .top__note p {
+    font-size: 10px;
+    display: block;
+  }
+}
 .product__price--wrapper {
   display: flex;
 }

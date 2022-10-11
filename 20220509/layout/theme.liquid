@@ -5,7 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="{{ settings.color_button }}">
+  
 
+{% if template contains 'beforethankyou' %}
+<meta name="robots" content="noindex">
+{% elsif template contains 'thankyou' %}
+<meta name="robots" content="noindex">
+{% endif %}
+  
   <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
   <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
   <link rel="preconnect" href="https://monorail-edge.shopifysvc.com">
